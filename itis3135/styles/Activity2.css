@@ -3,6 +3,7 @@
 /*styling for the table goes here*/
 body
 {
+    
 	width: 750px;
 	margin: 0 auto;
 }
@@ -10,7 +11,7 @@ body
 table
 {
 	border-collapse: collapse;
-	
+	caption-side: bottom;
 	margin: 20px;
 }
 
@@ -39,4 +40,9 @@ th {
 tbody tr:nth-child(odd) td
 {
 	background-color: lightgreen;
+}
+h1 {
+    font-style: monospace;
+    font-weight: bold;
+    
 }
