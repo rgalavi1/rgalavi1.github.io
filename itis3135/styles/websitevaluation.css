@@ -1,11 +1,13 @@
 .container {
-    background-color:rgb(173, 110, 110);
+    background-color:rgb(114, 124, 79);
     padding:10px;
 }
 h2 {
     font-size:70px;
     font-weight: bolder;
     text-align: center;
+    font-family: monospace;
+    color: white;
     
     
 }
@@ -14,7 +16,7 @@ h3 {
     
 }
 h3 a{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-size:30px;
     font-family: monospace;
     font-weight:bold;
@@ -22,7 +24,7 @@ h3 a{
     
 }
 .link:hover {
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 
 p {
@@ -39,4 +41,19 @@ ul li {
     text-align:left;
     color: white;
     font-family: monospace;
+}
+footer {
+    font-size: 15px;
+    text-align: center;
+    color:white;
+    font-family:monospace;
+}
+nav a {
+    text-decoration: none;
+    color:white;
+
+}
+a {
+    text-decoration: none;
+    color:white;
 }
