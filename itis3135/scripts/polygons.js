@@ -57,7 +57,7 @@ function validateEntry() {
             //if conditions are met, outputs polygon name 
             if(number > -10 || number < 10) {
                 //convert decimal to int, and takes the abs value of that number and stores it in var input
-                var input = Math.ceil(Math.abs(number));
+                var input = Math.round(Math.abs(number));
                 alert(getShape(input));
                 
             }
