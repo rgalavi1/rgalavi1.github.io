@@ -1,3 +1,5 @@
+///*The work submitted here is my work - I have not copied and pasted code into these pages - I have gotten help
+//from these people:(none) and these sites: (canvas chapter 2 and chapter 3 Murachs)- Sign Rey D Galaviz, 10-02-2021 4:12pm
 
 //number variable
 var number;
