@@ -53,9 +53,11 @@ function validateEntry() {
                 alert("Please enter a valid number.");
                 number = prompt("The Goat orders you to enter a number(1-10):");
             }
+            
             //if conditions are met, outputs polygon name 
             if(number > -10 || number < 10) {
-                var input = Math.abs(number);
+                //convert decimal to int, and takes the abs value of that number and stores it in var input
+                var input = Math.ceil(Math.abs(number));
                 alert(getShape(input));
                 
             }
