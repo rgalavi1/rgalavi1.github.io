@@ -30,7 +30,7 @@ function goatSurvival() {
 document.write("<h1 style= 'font-size: 50px;'>Welcome to Reviving Goat Inc.</h1>");
 document.write("<hr/>");
 
-document.write("<br><h2 style='font-size: 30px;'>Today is " + date + " and the time is: " + time + "." + "<br>The Reviving Goat Inc family welcomes you, " + fullName + ".<br>We're glad you are doing " + feeling + ".</h2>");
+document.write("<h2 style='font-size: 30px;'>Today is " + date + " and the time is: " + time + "." + "<br>The Reviving Goat Inc family welcomes you, " + fullName + ".<br>We're glad you are doing " + feeling + ".</h2>");
 document.write("<h3 style='font-size: 20px;'>Click any button!</h3>");
 document.write("<br>");
 document.write("<button onclick= 'goatFact()'type='goat-fact-button'>Goat Fact</button>");
