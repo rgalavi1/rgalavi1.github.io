@@ -37,8 +37,11 @@ th {
 }
 
 /*styling for the coffee types*/
-.label {
+label {
     font-weight: bold;
+}
+input {
+	align-items: right;
 }
 
 /*styling for the tables*/

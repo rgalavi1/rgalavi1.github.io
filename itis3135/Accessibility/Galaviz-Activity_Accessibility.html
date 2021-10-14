@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="Description" content="Testing website for accessibility.">
+
+  <!-- css -->
+  <link rel="stylesheet" href="Galaviz-Activity_Accessibility.css">
+  <title>Test For Accessibility</title>
+
+</head>
+
+<body>
+  <header>
+    <h1 class ="candle-delight">Candle Delight!</h1>
+  </header>
+  <main>
+
+    <table class="center">
+
+      <caption>Candles</caption>
+      <thead>
+        <tr>
+          <!-- identify table headers <th> with scope attribute -->
+          <th >TYPE</th>
+          <th >PRODUCT</th>
+          <th >FEATURES</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="table-row">
+          <th class ="table-head">Birthday Candles</th>
+          <td class="table-cell"><img src="images/Birthday-Candles.jpg" height="100"></td>
+          <td class="table-cell">
+            <ol role="list">
+              <li role="itemlist">Comes in a range of fun, vibrant colors</li>
+              <li role="itemlist">Small and slender forms allow you to add as many or as few of them to a dessert as you desire</li>
+              <li role="itemlist">Offers a way to personalize customers' desserts on birthdays and anniversaries</li>
+            </ol>
+          </td>   
+        </td>
+        </tr>
+        <tr class="table-row">
+            <th class="table-head">Votives</th>
+            <td class="table-cell"><img src="images\voltives.jpeg" height="100" width="130"></td>
+            <td class="table-cell">
+              <ol role="list">
+                <li role="itemlist">Inexpensive and easy to use</li>
+                <li role="itemlist">Bigger than tea lights to provide longer burn times, making them better for longer events</li>
+              </ol>
+            </td>
+          </tr>
+          <tr class="table-row">
+              <th class="table-head">Taper Candles</th>
+              <td class="table-cell"><img src="images\taper-candles.jpg" height="100" width="130"></td>
+              <td class="table-cell">
+                <ol role="list">
+                  <li role="itemlist">Commonly known as window candles</li>
+                  <li role="itemlist">Long, slender constructions add dimensions to table tops</li>
+                </ol>
+              </td>
+            </tr>
+      </tbody>
+    </table><br>
+     <!--Add the form here-->
+     <form action ="#">
+       <h2>Enter your name and phone number to win a gift!</h2>
+       <label for="name">Name:</label><br>
+       <input id="name" type="text" placeholder="Name"required><br>
+       <br><label for="name">Phone Number:</label><br>
+       <input id="phone-number" maxlength="10"type="text"placeholder="Phone Number"required><br>
+       <br><button type="button">Submit</button>
+       
+     </form>
+     
+   
+    <div class="whitespace"></div>
+    <a href="https://teachaccess.github.io/tutorial/#/12">Click here to find more about accessibility</a>
+    <div class="whitespace"></div>
+
+    <a href="https://dequeuniversity.com/rules/axe/3.2/color-contrast"> Find out if your font
+      color and background color passes WCAG standard!</a>
+  </main>
+
+  <footer>
+    <nav>
+      <a href="http://webpages.uncc.edu/rgalavi1/" target="_blank">Charlotte.edu</a> ║
+      <a href="https://github.com/rgalavi1" target="_blank">Github</a> ║
+      <a href="https://rgalavi1.github.io/" target="_blank">Github.io</a> ║
+      <a href="https://rgalavi1.github.io/itis3135/" target="_blank">ITIS 3135 Github Pages</a> ║
+      <a href="https://www.freecodecamp.org/reygalaviz" target="_blank">freeCodeCamp</a> 
+  </nav>
+
+  </footer>
+</body>
+</html>
