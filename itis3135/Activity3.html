@@ -13,18 +13,28 @@
 <body>
 	
 	<main>
+        
         <form action = "#">
         <h2>Sign up to reveice Cafesito's newsletter:</h2>
-        <label>Name:<input type= "text" size = "20"placeholder= "Name"required></label><br>
-        <br><label>Phone Number:<input type= "text" size = 20 maxlength = "10" placeholder= "Phone Number"required></label><br>
-        <br><label>Email Address: <input type= "text" size= "20" placeholder= "Email Address"required></label><br>
+        <label>Name:</label>
+        <input type= "text" size = "20"placeholder= "Name"required><br>
+        <br><label>Phone Number:</label>
+        <input type= "text" size = 20 maxlength = "10" placeholder= "Phone Number"required><br>
+        <br><label>Email Address: </label>
+        <input type= "text" size= "20" placeholder= "Email Address"required><br>
 
-        <br><label><input type= "radio" name= "male-female">Male</label>
-        <label><input type= "radio" name= "male-female">Female</label><br>
+        <input type= "radio" name= "male-female">
+        <label>Male</label>
+        <input type= "radio" name= "male-female">
+        <label>Female</label><br>
 
-        <br><label for="black-coffee"><input id="black-coffee" type="checkbox" name="black"> Black Coffee</label>
-		<label for ="espresso"><input id= "espresso" type= "checkbox" name= "espresso">Espresso</label>
-        <label for= "latte"><input id ="late" type= "checkbox" name= "latte">Latte</label><br>
+        <br><input id="coffee" type="checkbox" name="black">
+        <label for="black-coffee"> Black Coffee</label>
+        <input id= "coffee" type= "checkbox" name= "espresso">
+		<label for ="espresso">Espresso</label>
+        <input id ="coffee" type= "checkbox" name= "latte">
+        <label for= "latte">Latte</label><br>
+        
 
         <br><label for= "coffee time">When do you drink coffee?</label>
         <select name="time-of-day" id="time-of-day">
