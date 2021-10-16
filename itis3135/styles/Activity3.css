@@ -40,6 +40,7 @@ th {
 label {
     font-weight: bold;
 }
+/*Additional styling for input*/
 input {
 	align-items: right;
 	border-radius: 12px;
