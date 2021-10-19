@@ -4,12 +4,13 @@
 	<meta charset="UTF-8">
 	<link href="C:\Users\galav\OneDrive\Documents\junkyard\project_rand.css" rel="stylesheet" type="text/css" >
     <link href= "https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel=stylesheet>
+    <script src ="C:\Users\galav\OneDrive\Documents\Fall2021\itis3135_work\rgalavi1.github.io\itis3135\junkyard\junkyard.js"></script>
 	<title></title>
 </head>
 
 <body>
 
-    <img href="C:\Users\galav\OneDrive\Documents\junkyard\project_rand.html"src="junklogo.png" class="logo">
+    <a href= "C:\Users\galav\OneDrive\Documents\junkyard\project_rand.html"><img src="junklogo.png" alt="logo"></a>
     <nav class= "container">
         <ul>
             <h1>Houston Car Parts</h1>
@@ -21,29 +22,32 @@
     </nav>
 
     <h2>Contact Us</h2>
+    <p id= "contact">Phone Number:<br>987-345-6543<br>Email:<br>houstoncarparts@gmail.com</p>
     
     
-    <form action="#">
+    <form>
+        <p id="error"></p>
+        <p id="name"></p>
 
-        <label for="fname">First Name</label>
-        <input type="text" id="fname" name="firstname" placeholder="First Name"><br>
+        <label for="fname">First Name</label><br>
+        <input type="text" id="fname" name="firstname" placeholder="First Name"required><br>
     
-        <label for="lname">Last Name</label>
+        <br><label for="lname">Last Name</label><br>
         <input type="text" id="lname" name="lastname" placeholder="Last Name"><br>
     
-        <br><label for="country">Country</label>
-        <select id="country" name="country">
-          <option value="australia">Australia</option>
-          <option value="canada">Canada</option>
-          <option value="usa">USA</option>
-        </select><br>
+        <br><label for="country">County</label><br>
+        <input type="text" id="county" name="county" placeholder="County"><br>
+        
     
-        <br><label for="subject">Subject</label>
-        <textarea id="subject" name="subject" placeholder="Leave us a comment"></textarea><br>
+        <br><label for="subject">Subject</label><br>
+        <input type="text" id="comment" name="comment" placeholder="Leave us a comment"><br>
     
-        <br><input type="submit" value="Submit">
+        <br><button type="submit" onsubmit= "enterField()">Submit</button>
+
+        
     
       </form>
+      
     
     
 

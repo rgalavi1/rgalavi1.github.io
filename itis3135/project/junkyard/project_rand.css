@@ -17,16 +17,11 @@
     width: 50px;
     cursor: pointer;
     
-}
-.menu-icon {
-    width: 30px;
-    cursor: pointer;
-    margin-left: 40px;
     
 }
 nav {
     flex: 1;
-    text-align: left;
+    text-align: center;
 }
 nav ul li {
     list-style: none;
@@ -37,28 +32,97 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     color:rgb(0, 0, 0);
-    font-size: 20px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    font-family:monospace;
     font-weight: bold;
 }
-.row {
+a {
+    text-decoration: none;
+    text-transform: none;
     
-    height:100%;
+}
+a:hover {
+    color:rgb(92, 92, 63);
+}
+h3 {
+    font-family: monospace;
+    font-weight: bolder;
+    font-size: 20px;
     text-align: center;
+}
 
-}
-.col {
-    flex-basis: 50%;
-}
-.make-names {
-    color: black;
-    background-color: silver;
+h2 {
+    font-family: monospace;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
     
 }
 h1 {
+    font-size: 50px;
     text-decoration: none;
+    font-family: monospace;
+    color:rgb(92, 92, 63)
 }
+#comment {
+    height: 60px;
+    
+}
+#contact {
+    font-size: 20px;
+    text-align: center;
+}
+#home-description {
+    font-size: 20px;
+    text-align: center;
+}
+#home-title {
+    font-size: 20px;
+    text-align: center;
+}
+#sell-description{
+    font-size: 15px;
+    font-weight: bold;
+    text-align:center;
+}
+p{
+    font-family:monospace;
+    
+}
+
 input {
-    display: inline-block;
+    border-radius:12px;
+    font-size: 15px;
+    padding:12px 28px;
+    font-family: monospace;
 }
+label {
+    font-size: 20px;
+    font-family:monospace;
+}
+button {
+    border-radius: 12px;
+    padding: 14px 40px;
+    font-family: monospace;
+    
+}
+.sell-img {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width:25%;
+}
+.home-img {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+}
+body {
+    background-color: mintcream;
+}
+form {
+    text-align: center;
+}
+
 
