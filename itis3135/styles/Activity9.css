@@ -1,0 +1,41 @@
+li{
+    display: inline; 
+}
+.img {
+    width: 100px;
+    height: 100px;
+}
+.img:hover{
+    border: solid 3px rgb(175, 182, 161);
+    margin: -3px;
+}
+
+#main-image {
+    width: 700px;
+    height: 500px;
+    border: solid 20px rgb(175, 182, 161);
+}
+body {
+    text-align: center;
+    background-color: navajowhite;
+}
+header {
+    font-family: monospace;
+    font-size: 20px;
+}
+h1 {
+    font-family: monospace;
+    font-size: 40px;
+}
+h2 {
+    font-family: monospace;
+    font-size: 40px;
+}
+p{
+    font-family: monospace;
+    font-size: 20px;
+}
+footer {
+    font-family: monospace;
+    font-size: 15px;
+}
