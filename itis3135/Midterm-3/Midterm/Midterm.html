@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Weekly Calorie Calculator</title>
+    <link rel="stylesheet" href="Midterm.css">
+    <script src="Midterm.js"></script>
+</head>
+
+<body>
+<main>
+    <h1>Weekly Calorie Calculator</h1>
+    <!--add the form-->
+    <form id="your_details" name="your_details" action="#" >
+        <h2>Enter your details</h2>
+
+        <label>Name:</label>
+        <input type= "text" size = "20"placeholder= "Name"required>
+        <label>Email:</label>
+        <input type= "text" size = "20"placeholder= "Email"required>
+        <button>Submit</button>
+
+    </form>
+
+    <!--add the radio buttons-->
+    <p>Choose a day:</p>
+    <label>Monday</label>
+    <input type= "radio" name= "day">
+    <label>Tuesday</label>
+    <input type= "radio" name= "day">
+    <label>Wednesday</label>
+    <input type= "radio" name= "day">
+    <label>Thursday</label>
+    <input type= "radio" name= "day">
+    <label>Friday</label>
+    <input type= "radio" name= "day">
+    <label>Saturday</label>
+    <input type= "radio" name= "day">
+    <label>Sunday</label>
+    <input type= "radio" name= "day">
+
+    <!--input for calorie-->
+    <label>Enter the calorie:</label>
+    <input id = "enterCalorie"type= "text" size = "50"placeholder= "Calories"required><br>
+
+    <!--button for updating calorie-->
+    <button onclick= "updateCalories()"id = "updateButton">Update</button><br>
+
+    <!--button for add calorie-->
+    <br><button id ="addButton">Add Calorie</button><br>
+
+    <!--text box for showing Average calorie-->
+    <br><label>Average calorie consumption:</label>
+    <input id ="avgCalorie" type ="text">
+    <button onclick = "showAverageCalories()" id="avgButton">Show Average</button><br>
+    
+    <!--header for showing maximum calorie amount and cheat day-->
+    <br><strong id="show_max">Show Maximum Calorie  and Cheat Day:</strong>
+    <!--div for showing maximum calorie amount and cheat day-->
+    <div id="showMax"></div>
+
+</main>
+<footer>
+    <br/>
+    <a href="https://validator.w3.org/">Validate HTML</a>
+    <br/>
+    <a href="https://jigsaw.w3.org/css-validator/">Validate CSS</a>
+</footer>
+</body>
+</html>

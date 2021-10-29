@@ -1,5 +1,10 @@
 
 $(document).ready(function() {
+
+    $(".img").each((index, link) => {
+        const image = new Image();
+        image.src = link.src;
+    });
     //attacj event handlers
     $(".img").click( evt => {
 
