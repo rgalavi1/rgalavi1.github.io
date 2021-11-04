@@ -8,10 +8,6 @@ var updateCalories = () => {
     if(calorie == "") {
         alert("Enter the number of calories.");
     }
-    var i = document.querySelector("#day").selectedIndex;
-    calories[i] = calorie;
-
-    document.querySelector("#enterCalorie").value = null;
 
 
 

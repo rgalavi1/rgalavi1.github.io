@@ -4,6 +4,7 @@ body {
     margin: 0 auto;
     width: 450px;
     border: 3px solid Red;
+    
 }
 h1 {
     color: Red;
@@ -27,6 +28,8 @@ input{
     border: none;
     background: #f1f1f1;
 }
+
+/*add styles*/
 button {
     padding: 12px 28px;
     border-radius: 12px;
@@ -38,4 +41,5 @@ button:hover {
 }
 
 
-/*add styles*/
+
+
