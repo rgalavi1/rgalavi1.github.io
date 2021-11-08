@@ -11,7 +11,6 @@ $(document).ready(function() {
         // set up the event handlers for each link
         $("#image_list a").click(function (evt) {
                 // get the image URL and caption for each image and animate the caption
-
                 var caption = $(this).attr("title");
                 $("#caption").fadeOut(3000, function(){
 
@@ -21,7 +20,8 @@ $(document).ready(function() {
                 $("#image").fadeOut(3000, function(){
                         var imageURL = $(this).attr("href");
                          $("#image").attr("src", imageURL);
-                        $("#image").attr("src", imageURL).fadeIn(3000);
+                        
+                         $("#image").attr("src", imageURL).fadeIn(3000);
 
                 });
                 // cancel the default action of each link

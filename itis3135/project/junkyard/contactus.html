@@ -4,16 +4,17 @@
 	<meta charset="UTF-8">
 	<link href="project_rand.css" rel="stylesheet" type="text/css" >
     <link href= "https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel=stylesheet>
-    <script src ="C:\Users\galav\OneDrive\Documents\Fall2021\itis3135_work\rgalavi1.github.io\itis3135\project\junkyard\junkyard.js"></script>
+    <script src ="junkyard.js"></script>
 	<title></title>
 </head>
 
 <body>
 
     <a href= "project_rand.html"><img src="junklogo.png" alt="logo"></a>
+    <a href="project_rand.html"><h1>Houston Car Parts</h1></a>
     <nav class= "container">
         <ul>
-            <a href="project_rand.html"><h1>Houston Car Parts</h1></a>
+            
             <li><a href="findparts.html">Find Parts</a></li>
             <li><a href="sellyourparts.html">Sell Your Parts</a></li>
             <li><a href="getdirections.html">Get Directions</a></li>
@@ -25,24 +26,24 @@
     <p id= "contact">Phone Number:<br>987-345-6543<br>Email:<br>houstoncarparts@gmail.com</p>
     
     
-    <form>
-        <p id="error"></p>
-        <p id="name"></p>
-
-        <label for="fname">First Name</label><br>
-        <input type="text" id="fname" name="firstname" placeholder="First Name"required><br>
+    <form onsubmit="enterField()">
+    
+        <label for="fname"id ="fname">First Name</label><br>
+        <input type="text" id="fname" name="firstname" placeholder="First Name"><br>
     
         <br><label for="lname">Last Name</label><br>
         <input type="text" id="lname" name="lastname" placeholder="Last Name"><br>
-    
+        
+        <br><label for="email">Email</label><br>
+        <input type="text" id="email" name="email" placeholder="name@gmail.com"><br>
+
         <br><label for="country">County</label><br>
         <input type="text" id="county" name="county" placeholder="County"><br>
-        
     
         <br><label for="subject">Subject</label><br>
         <input type="text" id="comment" name="comment" placeholder="Leave us a comment"><br>
     
-        <br><button type="submit" onsubmit= "enterField()">Submit</button>
+        <br><button type="submit">Submit</button>
 
         
     
