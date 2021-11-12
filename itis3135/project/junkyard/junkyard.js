@@ -1,10 +1,44 @@
 
 
+var $ = function (id) {return document.getElementById(id);}
 
-function enterField() {
-    var x = document.getElementById("fname");
-    if(x =="") {
-        alert("please");
+window.onload = function() {
+ $("aa").onclick = function(){
+    var x = $("fname").value;
+    if(x == "") {
+        alert("Please fill out empty fields.");
     }
-  
 }
+}
+window.onload = function() {
+    $("aa").onclick = function(){
+       var x = $("fname").value;
+       if(x == "") {
+           alert("Please fill out empty fields.");
+       }
+   }
+   }
+   window.onload = function() {
+    $("aa").onclick = function(){
+       var x = $("fname").value;
+       if(x == "") {
+           alert("Please fill out empty fields.");
+       }
+   }
+   }
+   window.onload = function() {
+    $("aa").onclick = function(){
+       var x = $("fname").value;
+       if(x == "") {
+           alert("Please fill out empty fields.");
+       }
+   }
+   }
+   window.onload = function() {
+    $("aa").onclick = function(){
+       var x = $("fname").value;
+       if(x == "") {
+           alert("Please fill out empty fields.");
+       }
+   }
+   }
