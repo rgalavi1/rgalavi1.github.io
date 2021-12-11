@@ -41,6 +41,11 @@ a {
 a:hover {
     color:rgb(92, 92, 63);
 }
+a img {
+    width:auto;
+    height: auto;
+    
+}
 h3 {
     font-family: monospace;
     font-weight: bolder;
@@ -121,7 +126,8 @@ button:hover {
     width:50%;
 }
 body {
-    background-color: mintcream;
+    background-color: white;
+    text-align: center;
 }
 form {
     text-align: center;
@@ -138,11 +144,20 @@ table {
     margin-left: auto;
     margin-right: auto;
     padding-top: 4em;
-    border: 1px solid gray;
+    border: none;
+}
+footer {
+    padding: 10px;
+    background: silver;
+    color: black;
+    font-size: 15px;
+}
+footer p {
+    text-align: center;
 }
 
 table img {
-    width: 100%;
+    width: 70%;
     display: block;
     border-radius: 8px;
     
@@ -150,13 +165,20 @@ table img {
 }
 table img:hover {
     cursor: pointer;
-    border-radius: 12px 28px;
     position: relative;
- 
-    width: 200px;
-    height:auto;
+    width: 160px;
+    height:50%;
     display: block;
     
+}
+table thead {
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+td {
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
 }
 
 
