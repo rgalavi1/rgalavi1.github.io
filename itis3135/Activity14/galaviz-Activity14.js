@@ -1,26 +1,24 @@
 $(document).ready(function() {
     $("#nav_list li").click(function() {
-        var title = $(this).children("a").attr("title");
-        var filename = title + ".json";
-        consumeJSON(filename);
+        $.ajax ({
+            url: "json_files/" + $(this).children("a").attr("title") + ".json",
+            dataType: "json",
+            success: function(data) {
+                $.each(data, function (){
+                    $.each(this,  function(key, value){
+                        $("main h1").html(value.title);
+                        $("main h2").html(value.month);
+                        $("main h3").html(value.speaker);
+                        $("main img").attr("src", value.image);
+                        $("main p").html(value.text);
+                    });
+                });
+            }
+        });
+
     });
-	
-}); // end ready
+});
 
-function consumeJSON(jsonFileURL) {
-    $.ajax ({
-        url: "json_files" + jsonFileURL,
-        dataType: "text",
-        success: function(data) {
-            var json = $.parseJSON(data);
-            $("main > h1").html(json.speakers[0].title);
-            $("main > h2").html(json.speakers[0].month + "<br/>" +json.speakers[0].speaker);
-            $("main > h3").html(json.speakers[0].speaker);
-            $("main > img").attr("src", json.speakers[0].image);
-            $("main > p").html(json.speakers[0].text);
-            
-
-        }
         
-    });
-}
+             
+        
