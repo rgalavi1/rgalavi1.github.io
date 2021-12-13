@@ -112,6 +112,7 @@ button:hover {
     cursor: pointer;
     background-color: rgb(92, 92, 63);
     color: white;
+    transition:0.4s;
 }
 .sell-img {
     display:block;
@@ -179,6 +180,22 @@ td {
     font-size: 15px;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
+}
+#bxslider {
+    font-family:'Courier New', Courier, monospace;
+	width: 540px;
+	margin: 0 auto;
+    padding: 20px;
+}
+
+#id_pager {
+	text-align: center;
+	font-size: 90%;
+	color:rgb(92, 92, 63);
+    font-size: 1pc;
+}
+.bx-wrapper {
+	margin-bottom: 20px;
 }
 
 

@@ -1,26 +1,26 @@
-{"Cars for sale":[
+{"cars_sale":[
 	{
 		"car_name": "1959 Ford Convertible",
-        "image": "junkyard/images/for-convertible.jpg",
+        "image": "images/fordd.jpg",
         "price": "$39,900",
 		"car_description": "The car would be considered a driver the body is in near perfect condition no rust to speak of. The paint still has a good shine to it. The motor had just been rebuilt a few thousand miles ago and runs perfect. The chrome and stainless does have some pitting but is in good condition. The car has automatic transmission and works flawlessly. The top is black and has it recently been replaced about two years ago. The interior of the car is red black and white and it’s still the original interior that came with the car. If a person wanted to do a total restoration on this car this would be the one to do it on because the body is in such good shape as I say right now it’s a driver not a show car what a beautiful car."
 		
 	},
     {
 		"car_name": "1964 Shelby Daytona",
-        "image": "junkyard/images/shelby.jpg",
+        "image": "images/shelby.jpg",
         "price": "$209,750",
 		"car_description": "Roush 427IR 560HP/550 Torque 8-Stack with 60lb. Bosch Injectors; 2F Limited slip differential; Tremec Magnum blue printed 6-speed transmission; Engine/transmission installed by Olthoff Racing, NC; McLeod Twin disc clutch; Dana Hydra track rear end 3.46:1; 4340 forged crankshaft, 4340 forged H-Beam rods, forged pistons, AFR/CNC ported heads; Crane hydraulic roller cam and roller rockers; 14” drilled driver and slotted Baer Brake Rotors."
 		
 	},	{
 		"car_name": "1985 GMC Caballero",
-        "image": "junkyard/images/gmc.jpg",
+        "image": "images/gmc.jpg",
         "price": "$16,900",
 		"car_description": "Very well maintained 1985 GMC Caballero with Amarillo trim package. Beautiful tutone finish in Medium Gray Metallic over Navy Blue Metallic. Very nice blue cloth interior shows minimal wear. This car is very clean and has not been abused. Powered by a 305ci V8 with automatic transmission. Features include air conditioning, power steering, power front disc brakes, tilt steering column, and updated SONY audio with CD player and AUX input. Exterior finish, chrome and brightwork are all in very good condition. Mickey Thompson raised letter radial tires wrap fresh chrome American Racing Torque Thrust II wheels for a great look."
 		
 	},	{
 		"car_name": "1969 Chevrolet Corvette",
-        "image": "junkyard/images/corvette.jpg",
+        "image": "images/corvette.jpg",
         "price": "$106,700",
 		"car_description": "dual headers, unique, different, eye catching, work or play and very roomy for a corvette."
 		
